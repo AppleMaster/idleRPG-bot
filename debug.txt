@@ -1,0 +1,486 @@
+[09/07/15 09:23:00] Config: read checkupdates: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read dbfile: $VAR1 = 'irpg.db';
+[09/07/15 09:23:00] Config: read rppenstep: $VAR1 = '1.14';
+[09/07/15 09:23:00] Config: read botchan: $VAR1 = '#IdleRPG ';
+[09/07/15 09:23:00] Config: read okurl: $VAR1 = [          'ultrazone.org',          'idlerpg.net',          'sorcery.net',          'idlerpg.sorcery.net'        ];
+[09/07/15 09:23:00] Config: read doban: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read localaddr: $VAR1 = 'idlerpg.sorcery.net';
+[09/07/15 09:23:00] Config: read mapurl: $VAR1 = 'http://idlerpg.sorcery.net/quest.php';
+[09/07/15 09:23:00] Config: read debug: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read questfilename: $VAR1 = 'questinfo.txt';
+[09/07/15 09:23:00] Config: read casematters: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read botnick: $VAR1 = 'IdleRPG';
+[09/07/15 09:23:00] Config: read helpurl: $VAR1 = 'http://idlerpg.sorcery.net/';
+[09/07/15 09:23:00] Config: read rpstep: $VAR1 = '1.16';
+[09/07/15 09:23:00] Config: read silentmode: $VAR1 = '0';
+[09/07/15 09:23:00] Config: read noscale: $VAR1 = 0;
+[09/07/15 09:23:00] Config: read botident: $VAR1 = 'PRIVMSG NickServ :identify asdfgh123';
+[09/07/15 09:23:00] Config: read admincommurl: $VAR1 = 'http://idlerpg.sorcery.net/admincomms.txt';
+[09/07/15 09:23:00] Config: read detectsplits: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read reconnect: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read ownerpevalonly: $VAR1 = 0;
+[09/07/15 09:23:00] Config: read pidfile: $VAR1 = '.irpg.pid';
+[09/07/15 09:23:00] Config: read reconnect_wait: $VAR1 = '120';
+[09/07/15 09:23:00] Config: read botrlnm: $VAR1 = 'idle rpg';
+[09/07/15 09:23:00] Config: read writequestfile: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read allowuserinfo: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read botuser: $VAR1 = 'idlebot';
+[09/07/15 09:23:00] Config: read modsfile: $VAR1 = 'modifiers.txt';
+[09/07/15 09:23:00] Config: read voiceonlogin: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read debugfile: $VAR1 = 'debug.txt';
+[09/07/15 09:23:00] Config: read eventsfile: $VAR1 = 'events.txt';
+[09/07/15 09:23:00] Config: read limitpen: $VAR1 = '604800';
+[09/07/15 09:23:00] Config: read mapy: $VAR1 = '500';
+[09/07/15 09:23:00] Config: read rpbase: $VAR1 = '600';
+[09/07/15 09:23:00] Config: read owner: $VAR1 = 'Apple_Master';
+[09/07/15 09:23:00] Config: read owneraddonly: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read mapx: $VAR1 = '500';
+[09/07/15 09:23:00] Config: read phonehome: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read noccodes: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read botghostcmd: $VAR1 = 'PRIVMSG NickServ :ghost IdleRPG asdfgh123';
+[09/07/15 09:23:00] Config: read splitwait: $VAR1 = '900';
+[09/07/15 09:23:00] Config: read botopcmd: $VAR1 = 'PRIVMSG ChanServ :op #idlerpg %botnick%';
+[09/07/15 09:23:00] Config: read botmodes: $VAR1 = '+ix';
+[09/07/15 09:23:00] Config: read self_clock: $VAR1 = '3';
+[09/07/15 09:23:00] Config: read servers: $VAR1 = [          'ember.sorcery.net:6667'        ];
+[09/07/15 09:23:00] Config: read senduserlist: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read ownerdelonly: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read statuscmd: $VAR1 = 1;
+[09/07/15 09:23:00] Config: read modesperline: $VAR1 = '3';
+[09/07/15 09:23:00] Config: read nononp: $VAR1 = 1;
+[09/07/15 09:24:16] Becoming a daemon...
+[09/07/15 09:24:16] loaddb(): loaded 1 accounts, 0 previously online.
+[09/07/15 09:24:16] Connecting to ember.sorcery.net:6667...
+[09/07/15 09:24:16] Connected.
+[09/07/15 09:24:16] (q000) = NICK IdleRPG
+[09/07/15 09:24:16] (q001) = USER idlebot 0 0 :idle rpg
+[09/07/15 09:24:16] <- :ember.sorcery.net NOTICE Auth :*** Looking up your hostname...
+[09/07/15 09:24:16] (fm4) -> NICK IdleRPG
+[09/07/15 09:24:16] (fm3) -> USER idlebot 0 0 :idle rpg
+[09/07/15 09:24:16] <- :ember.sorcery.net NOTICE Auth :*** Found your hostname (ember.sorcery.net) -- cached
+[09/07/15 09:24:17] <- :ember.sorcery.net NOTICE Auth :Welcome to SorceryNet!
+[09/07/15 09:24:17] <- :ember.sorcery.net 001 IdleRPG :Welcome to the SorceryNet IRC Network IdleRPG!idlebot@ember.sorcery.net
+[09/07/15 09:24:17] (q000) = PRIVMSG NickServ :identify asdfgh123
+[09/07/15 09:24:17] (q001) = MODE IdleRPG :+ix
+[09/07/15 09:24:17] (q002) = JOIN #IdleRPG 
+[09/07/15 09:24:17] <- :ember.sorcery.net 002 IdleRPG :Your host is ember.sorcery.net, running version InspIRCd-2.0
+[09/07/15 09:24:17] <- :ember.sorcery.net 003 IdleRPG :This server was created 14:28:54 Sep  4 2015
+[09/07/15 09:24:17] <- :ember.sorcery.net 004 IdleRPG ember.sorcery.net InspIRCd-2.0 BGHIRScdghikorswx ABCDFGHIJKLMNOPQRSTYZabcdefghijklmnopqrstuvwz FHIJLYabdefghjkloqvw
+[09/07/15 09:24:17] (fm3) -> PRIVMSG NickServ :identify asdfgh123
+[09/07/15 09:24:17] (fm2) -> MODE IdleRPG :+ix
+[09/07/15 09:24:17] (fm1) -> JOIN #IdleRPG 
+[09/07/15 09:24:17] <- :ember.sorcery.net 005 IdleRPG AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibegw,k,FHJLdfjl,ABCDGKMNOPQRSTZcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUZcjmprs FNC INVEX=I :are supported by this server
+[09/07/15 09:24:17] <- :ember.sorcery.net 005 IdleRPG KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=32 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SorceryNet NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ :are supported by this server
+[09/07/15 09:24:17] <- :ember.sorcery.net 005 IdleRPG REMOVE SECURELIST SILENCE=32 SSL=162.243.135.246:6697 STARTTLS STATUSMSG=!~&@%+ TOPICLEN=390 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=100 :are supported by this server
+[09/07/15 09:24:17] <- :ember.sorcery.net 042 IdleRPG 785AAARRK :your unique ID
+[09/07/15 09:24:17] <- :ember.sorcery.net 375 IdleRPG :ember.sorcery.net message of the day
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |Welcome to SorceryNet IRC Network!
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |=-Server Information-=
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | ********************
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | You Are Now Using :  ember.sorcery.net
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Ports Available : 6665 - 6669, 7000, 9000
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Port For SSL Connection : 6697 & 9999
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Server Owner : Apple_Master (applemaster@sorcery.net)
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Global Operators: Virgie (virgie@sorcery.net)
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | WE ARE NOT LOOKING FOR STAFF AT THIS TIME.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |-= Network Policies=-
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | ******************
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | No Clones or Flooding.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | No Harassing Other Users.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | No Child Pornography.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | No Advertising /Spamming (channels, servers, sites, etc.)
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | No Denial of Service Attacks.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | No War Bots.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | PLEASE RESPECT OTHERS SO OTHERS CAN RESPECT YOU BACK!
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Official Channels:-
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | For assistance:  /join #square : SorceryNet Network Channel & Help Channel
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | For RPGs:  /join #rpg-hub to check out various RPGs
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |-= Technical Note=-
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | *****************
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | CHANSERV - /msg chanserv help
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | NICKSERV - /msg nickserv help
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | MEMOSERV - /msg memoserv help
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | BOTSERV - /msg botserv help
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | GAMESERV - /msg gameserv help
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | LEGAL NOTICE TO USERS OF THIS NETWORK
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |--------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | You can give any personal information such as : your name,
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | phone number, home address, etc. but we are NOT responsible
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | for that.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | For updates and information please visit
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | http://www.sorcery.net
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Please keep in mind that real time chat is an unmoderated
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | medium and that we are NOT responsible for the content while
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | you are online. If you do not understand the rules and
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | policies of this server, please /quit at this time.-
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | We reserve the right to deny access to this server,
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | this network, and/or services at any time, for any
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | or no reason as we deem necessary.
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | If you have any inquiries, please contact applemaster@sorcery.net
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- | Enjoy your stay on SorceryNet!
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 09:24:17] <- :ember.sorcery.net 372 IdleRPG :- 
+[09/07/15 09:24:17] <- :ember.sorcery.net 376 IdleRPG :End of message of the day.
+[09/07/15 09:24:17] <- :ember.sorcery.net 251 IdleRPG :There are 871 users and 683 invisible on 10 servers
+[09/07/15 09:24:17] <- :ember.sorcery.net 252 IdleRPG 13 :operator(s) online
+[09/07/15 09:24:17] <- :ember.sorcery.net 254 IdleRPG 1130 :channels formed
+[09/07/15 09:24:17] <- :ember.sorcery.net 255 IdleRPG :I have 166 clients and 1 servers
+[09/07/15 09:24:17] <- :ember.sorcery.net 265 IdleRPG :Current Local Users: 166  Max: 276
+[09/07/15 09:24:17] <- :ember.sorcery.net 266 IdleRPG :Current Global Users: 1554  Max: 1901
+[09/07/15 09:24:17] <- :ember.sorcery.net 396 IdleRPG sorcery-6eivi3.sorcery.net :is now your displayed host
+[09/07/15 09:24:17] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net MODE IdleRPG +x
+[09/07/15 09:24:17] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net MODE IdleRPG +i
+[09/07/15 09:24:17] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net JOIN :#IdleRPG
+[09/07/15 09:24:17] (q000) = WHO #IdleRPG
+[09/07/15 09:24:17] (q001) = PRIVMSG ChanServ :op #idlerpg IdleRPG
+[09/07/15 09:24:17] <- :ember.sorcery.net 332 IdleRPG #IdleRPG :Welcome to IdleRPG on SorceryNet - View the website at http://idlerpg.sorcery.net
+[09/07/15 09:24:17] <- :ember.sorcery.net 333 IdleRPG #IdleRPG JC!Scotz@sorcery.net 1441619028
+[09/07/15 09:24:17] <- :ember.sorcery.net 353 IdleRPG = #IdleRPG :@Apple_Master @JC @GinjaNinja32 IdleRPG 
+[09/07/15 09:24:17] <- :ember.sorcery.net 366 IdleRPG #IdleRPG :End of /NAMES list.
+[09/07/15 09:24:17] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :This nickname is registered and protected.  If it is your
+[09/07/15 09:24:17] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :nick, type /msg NickServ IDENTIFY password.  Otherwise,
+[09/07/15 09:24:17] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :please choose a different nick.
+[09/07/15 09:24:17] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :If you do not change within 1 minute, I will change your nick.
+[09/07/15 09:24:17] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :Password accepted - you are now recognized.
+[09/07/15 09:24:17] <- :ember.sorcery.net 900 IdleRPG IdleRPG!idlebot@sorcery-6eivi3.sorcery.net IdleRPG :You are now logged in as IdleRPG
+[09/07/15 09:24:17] <- :NickServ!services@services.sorcery.net MODE IdleRPG +r
+[09/07/15 09:24:17] <- :ChanServ!services@services.sorcery.net MODE #IdleRPG +o IdleRPG
+[09/07/15 09:24:20] (fm4) -> WHO #IdleRPG
+[09/07/15 09:24:20] (fm3) -> PRIVMSG ChanServ :op #idlerpg IdleRPG
+[09/07/15 09:24:20] <- :ember.sorcery.net 352 IdleRPG #IdleRPG apples fallemmc.com ember.sorcery.net Apple_Master H*@ :0 Apples
+[09/07/15 09:24:20] <- :ember.sorcery.net 352 IdleRPG #IdleRPG Scotz sorcery.net gaia.sorcery.net JC G*@ :0 James 'JC' O'Neill
+[09/07/15 09:24:20] <- :ember.sorcery.net 352 IdleRPG #IdleRPG nyx sorcery-2db.qr5.80.151.IP gaia.sorcery.net GinjaNinja32 G@ :0 GinjaNinja32
+[09/07/15 09:24:20] <- :ember.sorcery.net 352 IdleRPG #IdleRPG idlebot sorcery-6eivi3.sorcery.net ember.sorcery.net IdleRPG H@ :0 idle rpg
+[09/07/15 09:24:20] <- :ember.sorcery.net 315 IdleRPG #IdleRPG :End of /WHO list.
+[09/07/15 09:24:20] (q000) = PRIVMSG #IdleRPG :0 users qualified for auto login.
+[09/07/15 09:24:20] (fm2) -> PRIVMSG #IdleRPG :0 users qualified for auto login.
+[09/07/15 09:25:39] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :info
+[09/07/15 09:25:39] Error: Attempted ha() for invalid username ""
+[09/07/15 09:25:39] (q000) = PRIVMSG Apple_Master :IRPG bot v3.1.2 by jotun, http://idlerpg.net/. On via server: ember.sorcery.net:6667. Admins online: .
+[09/07/15 09:25:39] (fm4) -> PRIVMSG Apple_Master :IRPG bot v3.1.2 by jotun, http://idlerpg.net/. On via server: ember.sorcery.net:6667. Admins online: .
+[09/07/15 09:26:07] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :register Apples asdfgh132 Tester of Tests
+[09/07/15 09:26:07] (q000) = MODE #IdleRPG +v :Apple_Master
+[09/07/15 09:26:07] (q001) = PRIVMSG #IdleRPG :Welcome Apple_Master's new player Apples, the Tester of Tests! Next level in 0 days, 00:10:00.
+[09/07/15 09:26:07] (q002) = PRIVMSG Apple_Master :Success! Account Apples created. You have 600 seconds idleness until you reach level 1. 
+[09/07/15 09:26:07] (q003) = PRIVMSG Apple_Master :NOTE: The point of the game is to see who can idle the longest. As such, talking in the channel, parting, quitting, and changing nicks all penalize you.
+[09/07/15 09:26:09] (fm4) -> MODE #IdleRPG +v :Apple_Master
+[09/07/15 09:26:09] (fm3) -> PRIVMSG #IdleRPG :Welcome Apple_Master's new player Apples, the Tester of Tests! Next level in 0 days, 00:10:00.
+[09/07/15 09:26:09] (fm2) -> PRIVMSG Apple_Master :Success! Account Apples created. You have 600 seconds idleness until you reach level 1. 
+[09/07/15 09:26:09] (fm1) -> PRIVMSG Apple_Master :NOTE: The point of the game is to see who can idle the longest. As such, talking in the channel, parting, quitting, and changing nicks all penalize you.
+[09/07/15 09:26:09] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net MODE #IdleRPG +v Apple_Master
+[09/07/15 09:26:24] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :hum
+[09/07/15 09:26:24] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:04 added to your timer for privmsg.
+[09/07/15 09:26:27] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:04 added to your timer for privmsg.
+[09/07/15 09:28:28] <- PING :ember.sorcery.net
+[09/07/15 09:28:28] -> PONG :ember.sorcery.net
+[09/07/15 09:29:40] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :still broken af
+[09/07/15 09:29:40] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:16 added to your timer for privmsg.
+[09/07/15 09:29:43] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:16 added to your timer for privmsg.
+[09/07/15 09:31:45] <- PING :ember.sorcery.net
+[09/07/15 09:31:45] -> PONG :ember.sorcery.net
+[09/07/15 09:32:37] <- :JC!Scotz@sorcery.net PRIVMSG #IdleRPG :i don't know :(
+[09/07/15 09:32:43] <- :JC!Scotz@sorcery.net PRIVMSG #IdleRPG :need old PHP maybe?
+[09/07/15 09:33:12] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :could be
+[09/07/15 09:33:12] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:09 added to your timer for privmsg.
+[09/07/15 09:33:13] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:09 added to your timer for privmsg.
+[09/07/15 09:33:16] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :that sounds awful though
+[09/07/15 09:33:16] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:25 added to your timer for privmsg.
+[09/07/15 09:33:19] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:25 added to your timer for privmsg.
+[09/07/15 09:33:24] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :there's no fucking support anywhere
+[09/07/15 09:33:24] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:36 added to your timer for privmsg.
+[09/07/15 09:33:25] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:36 added to your timer for privmsg.
+[09/07/15 09:34:19] <- :JC!Scotz@sorcery.net PRIVMSG #IdleRPG :ACTION prods GinjaNinja32
+[09/07/15 09:34:21] <- :JC!Scotz@sorcery.net PRIVMSG #IdleRPG :fix it
+[09/07/15 09:34:22] <- :JC!Scotz@sorcery.net PRIVMSG #IdleRPG :lol
+[09/07/15 09:35:26] <- PING :ember.sorcery.net
+[09/07/15 09:35:26] -> PONG :ember.sorcery.net
+[09/07/15 09:35:38] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :fix it you php fuck
+[09/07/15 09:35:38] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:20 added to your timer for privmsg.
+[09/07/15 09:35:41] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:20 added to your timer for privmsg.
+[09/07/15 09:35:47] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :i suppose I could pop into another idlerpg
+[09/07/15 09:35:47] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:43 added to your timer for privmsg.
+[09/07/15 09:35:48] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :and ask
+[09/07/15 09:35:48] (q001) = NOTICE Apple_Master :Penalty of 0 days, 00:00:08 added to your timer for privmsg.
+[09/07/15 09:35:50] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:43 added to your timer for privmsg.
+[09/07/15 09:35:50] (fm3) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:08 added to your timer for privmsg.
+[09/07/15 09:35:53] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :but I suspect I wouldn't get an answer
+[09/07/15 09:35:53] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:39 added to your timer for privmsg.
+[09/07/15 09:35:56] (fm3) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:39 added to your timer for privmsg.
+[09/07/15 09:35:57] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :...because people'd be idling
+[09/07/15 09:35:57] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:30 added to your timer for privmsg.
+[09/07/15 09:35:59] (fm2) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:30 added to your timer for privmsg.
+[09/07/15 09:37:37] <- :GinjaNinja32!nyx@sorcery-2db.qr5.80.151.IP PRIVMSG #IdleRPG :heh
+[09/07/15 09:38:00] <- PING :ember.sorcery.net
+[09/07/15 09:38:00] -> PONG :ember.sorcery.net
+[09/07/15 09:38:09] (q000) = PRIVMSG #IdleRPG :Apples, the Tester of Tests, has attained level 1! Next level in 0 days, 00:11:36.
+[09/07/15 09:38:09] (q001) = NOTICE Apple_Master :You found a level 1 weapon! Your current weapon is only level 0, so it seems Luck is with you!
+[09/07/15 09:38:12] (fm4) -> PRIVMSG #IdleRPG :Apples, the Tester of Tests, has attained level 1! Next level in 0 days, 00:11:36.
+[09/07/15 09:38:12] (fm3) -> NOTICE Apple_Master :You found a level 1 weapon! Your current weapon is only level 0, so it seems Luck is with you!
+[09/07/15 09:40:13] <- PING :ember.sorcery.net
+[09/07/15 09:40:13] -> PONG :ember.sorcery.net
+[09/07/15 09:40:57] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :ugh
+[09/07/15 09:40:57] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:04 added to your timer for privmsg.
+[09/07/15 09:41:00] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:04 added to your timer for privmsg.
+[09/07/15 09:41:05] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :DEL Apples
+[09/07/15 09:41:05] (q000) = PRIVMSG Apple_Master :You don't have access to DEL.
+[09/07/15 09:41:06] (fm4) -> PRIVMSG Apple_Master :You don't have access to DEL.
+[09/07/15 09:41:12] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :oh good
+[09/07/15 09:41:12] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:09 added to your timer for privmsg.
+[09/07/15 09:41:15] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:09 added to your timer for privmsg.
+[09/07/15 09:41:17] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :it doesn't think i'm an admin
+[09/07/15 09:41:17] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:34 added to your timer for privmsg.
+[09/07/15 09:41:18] (fm3) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:34 added to your timer for privmsg.
+[09/07/15 09:41:23] <- :JC!Scotz@sorcery.net PRIVMSG #IdleRPG :just slip GinjaNinja32 the shell details show him the directory and let the little goblins in his head do the rest
+[09/07/15 13:24:04] Config: read checkupdates: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read dbfile: $VAR1 = 'irpg.db';
+[09/07/15 13:24:04] Config: read rppenstep: $VAR1 = '1.14';
+[09/07/15 13:24:04] Config: read botchan: $VAR1 = '#IdleRPG ';
+[09/07/15 13:24:04] Config: read okurl: $VAR1 = [          'ultrazone.org',          'idlerpg.net',          'sorcery.net',          'idlerpg.sorcery.net'        ];
+[09/07/15 13:24:04] Config: read doban: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read localaddr: $VAR1 = 'idlerpg.sorcery.net';
+[09/07/15 13:24:04] Config: read mapurl: $VAR1 = 'http://idlerpg.sorcery.net/quest.php';
+[09/07/15 13:24:04] Config: read debug: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read questfilename: $VAR1 = 'questinfo.txt';
+[09/07/15 13:24:04] Config: read casematters: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read botnick: $VAR1 = 'IdleRPG';
+[09/07/15 13:24:04] Config: read helpurl: $VAR1 = 'http://idlerpg.sorcery.net/';
+[09/07/15 13:24:04] Config: read rpstep: $VAR1 = '1.16';
+[09/07/15 13:24:04] Config: read silentmode: $VAR1 = '0';
+[09/07/15 13:24:04] Config: read noscale: $VAR1 = 0;
+[09/07/15 13:24:04] Config: read botident: $VAR1 = 'PRIVMSG NickServ :identify asdfgh123';
+[09/07/15 13:24:04] Config: read admincommurl: $VAR1 = 'http://idlerpg.sorcery.net/admincomms.txt';
+[09/07/15 13:24:04] Config: read detectsplits: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read reconnect: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read ownerpevalonly: $VAR1 = 0;
+[09/07/15 13:24:04] Config: read pidfile: $VAR1 = '.irpg.pid';
+[09/07/15 13:24:04] Config: read reconnect_wait: $VAR1 = '120';
+[09/07/15 13:24:04] Config: read botrlnm: $VAR1 = 'idle rpg';
+[09/07/15 13:24:04] Config: read writequestfile: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read allowuserinfo: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read botuser: $VAR1 = 'idlebot';
+[09/07/15 13:24:04] Config: read modsfile: $VAR1 = 'modifiers.txt';
+[09/07/15 13:24:04] Config: read voiceonlogin: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read debugfile: $VAR1 = 'debug.txt';
+[09/07/15 13:24:04] Config: read eventsfile: $VAR1 = 'events.txt';
+[09/07/15 13:24:04] Config: read limitpen: $VAR1 = '604800';
+[09/07/15 13:24:04] Config: read mapy: $VAR1 = '500';
+[09/07/15 13:24:04] Config: read rpbase: $VAR1 = '600';
+[09/07/15 13:24:04] Config: read owner: $VAR1 = 'Apple_Master';
+[09/07/15 13:24:04] Config: read owneraddonly: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read mapx: $VAR1 = '500';
+[09/07/15 13:24:04] Config: read phonehome: $VAR1 = 0;
+[09/07/15 13:24:04] Config: read noccodes: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read botghostcmd: $VAR1 = 'PRIVMSG NickServ :ghost IdleRPG asdfgh123';
+[09/07/15 13:24:04] Config: read splitwait: $VAR1 = '900';
+[09/07/15 13:24:04] Config: read botopcmd: $VAR1 = 'PRIVMSG ChanServ :op #idlerpg %botnick%';
+[09/07/15 13:24:04] Config: read botmodes: $VAR1 = '+ix';
+[09/07/15 13:24:04] Config: read self_clock: $VAR1 = '3';
+[09/07/15 13:24:04] Config: read servers: $VAR1 = [          'ember.sorcery.net:6667'        ];
+[09/07/15 13:24:04] Config: read senduserlist: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read ownerdelonly: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read statuscmd: $VAR1 = 1;
+[09/07/15 13:24:04] Config: read modesperline: $VAR1 = '3';
+[09/07/15 13:24:04] Config: read nononp: $VAR1 = 1;
+[09/07/15 13:25:23] Becoming a daemon...
+[09/07/15 13:25:23] loaddb(): loaded 1 accounts, 0 previously online.
+[09/07/15 13:25:23] Connecting to ember.sorcery.net:6667...
+[09/07/15 13:25:23] Connected.
+[09/07/15 13:25:23] (q000) = NICK IdleRPG
+[09/07/15 13:25:23] (q001) = USER idlebot 0 0 :idle rpg
+[09/07/15 13:25:23] <- :ember.sorcery.net NOTICE Auth :*** Looking up your hostname...
+[09/07/15 13:25:23] (fm4) -> NICK IdleRPG
+[09/07/15 13:25:23] (fm3) -> USER idlebot 0 0 :idle rpg
+[09/07/15 13:25:23] <- :ember.sorcery.net NOTICE Auth :*** Found your hostname (ember.sorcery.net)
+[09/07/15 13:25:24] <- :ember.sorcery.net NOTICE Auth :Welcome to SorceryNet!
+[09/07/15 13:25:24] <- :ember.sorcery.net 001 IdleRPG :Welcome to the SorceryNet IRC Network IdleRPG!idlebot@ember.sorcery.net
+[09/07/15 13:25:24] (q000) = PRIVMSG NickServ :identify asdfgh123
+[09/07/15 13:25:24] (q001) = MODE IdleRPG :+ix
+[09/07/15 13:25:24] (q002) = JOIN #IdleRPG 
+[09/07/15 13:25:24] <- :ember.sorcery.net 002 IdleRPG :Your host is ember.sorcery.net, running version InspIRCd-2.0
+[09/07/15 13:25:24] <- :ember.sorcery.net 003 IdleRPG :This server was created 14:28:54 Sep  4 2015
+[09/07/15 13:25:24] <- :ember.sorcery.net 004 IdleRPG ember.sorcery.net InspIRCd-2.0 BGHIRScdghikorswx ABCDFGHIJKLMNOPQRSTXYZabcdefghijklmnopqrstuvwz FHIJLYabdefghjkloqvw
+[09/07/15 13:25:24] (fm3) -> PRIVMSG NickServ :identify asdfgh123
+[09/07/15 13:25:24] (fm2) -> MODE IdleRPG :+ix
+[09/07/15 13:25:24] (fm1) -> JOIN #IdleRPG 
+[09/07/15 13:25:24] <- :ember.sorcery.net 005 IdleRPG AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibegw,k,FHJLdfjl,ABCDGKMNOPQRSTXZcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUZcjmprs FNC INVEX=I :are supported by this server
+[09/07/15 13:25:24] <- :ember.sorcery.net 005 IdleRPG KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=32 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SorceryNet NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ :are supported by this server
+[09/07/15 13:25:24] <- :ember.sorcery.net 005 IdleRPG REMOVE SECURELIST SILENCE=32 SSL=162.243.135.246:6697 STARTTLS STATUSMSG=!~&@%+ TOPICLEN=390 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=100 :are supported by this server
+[09/07/15 13:25:24] <- :ember.sorcery.net 042 IdleRPG 785AAASAW :your unique ID
+[09/07/15 13:25:24] <- :ember.sorcery.net 375 IdleRPG :ember.sorcery.net message of the day
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |Welcome to SorceryNet IRC Network!
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |=-Server Information-=
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | ********************
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | You Are Now Using :  ember.sorcery.net
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Ports Available : 6665 - 6669, 7000, 9000
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Port For SSL Connection : 6697 & 9999
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Server Owner : Apple_Master (applemaster@sorcery.net)
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Global Operators: Virgie (virgie@sorcery.net)
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | WE ARE NOT LOOKING FOR STAFF AT THIS TIME.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |-= Network Policies=-
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | ******************
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | No Clones or Flooding.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | No Harassing Other Users.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | No Child Pornography.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | No Advertising /Spamming (channels, servers, sites, etc.)
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | No Denial of Service Attacks.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | No War Bots.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | PLEASE RESPECT OTHERS SO OTHERS CAN RESPECT YOU BACK!
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Official Channels:-
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | For assistance:  /join #square : SorceryNet Network Channel & Help Channel
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | For RPGs:  /join #rpg-hub to check out various RPGs
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |-= Technical Note=-
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | *****************
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | CHANSERV - /msg chanserv help
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | NICKSERV - /msg nickserv help
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | MEMOSERV - /msg memoserv help
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | BOTSERV - /msg botserv help
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | GAMESERV - /msg gameserv help
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | LEGAL NOTICE TO USERS OF THIS NETWORK
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |--------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | You can give any personal information such as : your name,
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | phone number, home address, etc. but we are NOT responsible
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | for that.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | For updates and information please visit
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | http://www.sorcery.net
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Please keep in mind that real time chat is an unmoderated
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | medium and that we are NOT responsible for the content while
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | you are online. If you do not understand the rules and
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | policies of this server, please /quit at this time.-
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | We reserve the right to deny access to this server,
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | this network, and/or services at any time, for any
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | or no reason as we deem necessary.
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | If you have any inquiries, please contact applemaster@sorcery.net
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- |
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- | Enjoy your stay on SorceryNet!
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- +---------------------------------------------------------------
+[09/07/15 13:25:24] <- :ember.sorcery.net 372 IdleRPG :- 
+[09/07/15 13:25:24] <- :ember.sorcery.net 376 IdleRPG :End of message of the day.
+[09/07/15 13:25:24] <- :ember.sorcery.net 251 IdleRPG :There are 1012 users and 770 invisible on 10 servers
+[09/07/15 13:25:24] <- :ember.sorcery.net 252 IdleRPG 13 :operator(s) online
+[09/07/15 13:25:24] <- :ember.sorcery.net 254 IdleRPG 1193 :channels formed
+[09/07/15 13:25:24] <- :ember.sorcery.net 255 IdleRPG :I have 237 clients and 1 servers
+[09/07/15 13:25:24] <- :ember.sorcery.net 265 IdleRPG :Current Local Users: 237  Max: 276
+[09/07/15 13:25:24] <- :ember.sorcery.net 266 IdleRPG :Current Global Users: 1782  Max: 1901
+[09/07/15 13:25:24] <- :ember.sorcery.net 396 IdleRPG sorcery-6eivi3.sorcery.net :is now your displayed host
+[09/07/15 13:25:24] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net MODE IdleRPG +x
+[09/07/15 13:25:24] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net MODE IdleRPG +i
+[09/07/15 13:25:24] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net JOIN :#IdleRPG
+[09/07/15 13:25:24] (q000) = WHO #IdleRPG
+[09/07/15 13:25:24] (q001) = PRIVMSG ChanServ :op #idlerpg IdleRPG
+[09/07/15 13:25:24] <- :ember.sorcery.net 332 IdleRPG #IdleRPG :Welcome to IdleRPG on SorceryNet - View the website at http://idlerpg.sorcery.net
+[09/07/15 13:25:24] <- :ember.sorcery.net 333 IdleRPG #IdleRPG JC!Scotz@sorcery.net 1441619028
+[09/07/15 13:25:24] <- :ember.sorcery.net 353 IdleRPG = #IdleRPG :@Apple_Master @JC @GinjaNinja32 IdleRPG 
+[09/07/15 13:25:24] <- :ember.sorcery.net 366 IdleRPG #IdleRPG :End of /NAMES list.
+[09/07/15 13:25:24] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :This nickname is registered and protected.  If it is your
+[09/07/15 13:25:24] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :nick, type /msg NickServ IDENTIFY password.  Otherwise,
+[09/07/15 13:25:24] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :please choose a different nick.
+[09/07/15 13:25:24] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :If you do not change within 1 minute, I will change your nick.
+[09/07/15 13:25:24] <- :NickServ!services@services.sorcery.net NOTICE IdleRPG :Password accepted - you are now recognized.
+[09/07/15 13:25:24] <- :ember.sorcery.net 900 IdleRPG IdleRPG!idlebot@sorcery-6eivi3.sorcery.net IdleRPG :You are now logged in as IdleRPG
+[09/07/15 13:25:24] <- :NickServ!services@services.sorcery.net MODE IdleRPG +r
+[09/07/15 13:25:24] <- :ChanServ!services@services.sorcery.net MODE #IdleRPG +o IdleRPG
+[09/07/15 13:25:27] (fm4) -> WHO #IdleRPG
+[09/07/15 13:25:27] (fm3) -> PRIVMSG ChanServ :op #idlerpg IdleRPG
+[09/07/15 13:25:27] <- :ember.sorcery.net 352 IdleRPG #IdleRPG apples fallemmc.com ember.sorcery.net Apple_Master H*@ :0 Apples
+[09/07/15 13:25:27] <- :ember.sorcery.net 352 IdleRPG #IdleRPG Scotz sorcery.net gaia.sorcery.net JC G*@ :0 James 'JC' O'Neill
+[09/07/15 13:25:27] <- :ember.sorcery.net 352 IdleRPG #IdleRPG nyx sorcery-2db.qr5.80.151.IP gaia.sorcery.net GinjaNinja32 G@ :0 GinjaNinja32
+[09/07/15 13:25:27] <- :ember.sorcery.net 352 IdleRPG #IdleRPG idlebot sorcery-6eivi3.sorcery.net ember.sorcery.net IdleRPG H@ :0 idle rpg
+[09/07/15 13:25:27] <- :ember.sorcery.net 315 IdleRPG #IdleRPG :End of /WHO list.
+[09/07/15 13:25:27] (q000) = PRIVMSG #IdleRPG :0 users qualified for auto login.
+[09/07/15 13:25:27] (fm2) -> PRIVMSG #IdleRPG :0 users qualified for auto login.
+[09/07/15 13:27:28] <- PING :ember.sorcery.net
+[09/07/15 13:27:28] -> PONG :ember.sorcery.net
+[09/07/15 13:29:29] <- PING :ember.sorcery.net
+[09/07/15 13:29:29] -> PONG :ember.sorcery.net
+[09/07/15 13:31:30] <- PING :ember.sorcery.net
+[09/07/15 13:31:30] -> PONG :ember.sorcery.net
+[09/07/15 13:33:31] <- PING :ember.sorcery.net
+[09/07/15 13:33:31] -> PONG :ember.sorcery.net
+[09/07/15 13:35:32] <- PING :ember.sorcery.net
+[09/07/15 13:35:32] -> PONG :ember.sorcery.net
+[09/07/15 13:37:33] <- PING :ember.sorcery.net
+[09/07/15 13:37:33] -> PONG :ember.sorcery.net
+[09/07/15 13:39:34] <- PING :ember.sorcery.net
+[09/07/15 13:39:34] -> PONG :ember.sorcery.net
+[09/07/15 13:41:12] <- :boop!boop@boop.boop JOIN :#IdleRPG
+[09/07/15 13:41:35] <- PING :ember.sorcery.net
+[09/07/15 13:41:35] -> PONG :ember.sorcery.net
+[09/07/15 13:41:45] <- :boop!boop@boop.boop PRIVMSG IdleRPG :register bup cutething Irish Teacher
+[09/07/15 13:41:45] (q000) = MODE #IdleRPG +v :boop
+[09/07/15 13:41:45] (q001) = PRIVMSG #IdleRPG :Welcome boop's new player bup, the Irish Teacher! Next level in 0 days, 00:10:00.
+[09/07/15 13:41:45] (q002) = PRIVMSG boop :Success! Account bup created. You have 600 seconds idleness until you reach level 1. 
+[09/07/15 13:41:45] (q003) = PRIVMSG boop :NOTE: The point of the game is to see who can idle the longest. As such, talking in the channel, parting, quitting, and changing nicks all penalize you.
+[09/07/15 13:41:45] (fm4) -> MODE #IdleRPG +v :boop
+[09/07/15 13:41:45] (fm3) -> PRIVMSG #IdleRPG :Welcome boop's new player bup, the Irish Teacher! Next level in 0 days, 00:10:00.
+[09/07/15 13:41:45] (fm2) -> PRIVMSG boop :Success! Account bup created. You have 600 seconds idleness until you reach level 1. 
+[09/07/15 13:41:45] (fm1) -> PRIVMSG boop :NOTE: The point of the game is to see who can idle the longest. As such, talking in the channel, parting, quitting, and changing nicks all penalize you.
+[09/07/15 13:41:45] (q000) = PRIVMSG #IdleRPG :bup, the Irish Teacher, has attained level 1! Next level in 0 days, 00:11:36.
+[09/07/15 13:41:45] (q001) = NOTICE boop :You found a level 1 shield! Your current shield is only level 0, so it seems Luck is with you!
+[09/07/15 13:41:45] <- :IdleRPG!idlebot@sorcery-6eivi3.sorcery.net MODE #IdleRPG +v boop
+[09/07/15 13:41:48] (fm0) -> PRIVMSG #IdleRPG :bup, the Irish Teacher, has attained level 1! Next level in 0 days, 00:11:36.
+[09/07/15 13:41:51] (fm0) -> NOTICE boop :You found a level 1 shield! Your current shield is only level 0, so it seems Luck is with you!
+[09/07/15 13:42:14] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :login Apple_Master asdfgh132
+[09/07/15 13:42:14] (q000) = MODE #IdleRPG +v :Apple_Master
+[09/07/15 13:42:14] (q001) = PRIVMSG #IdleRPG :Apple_Master, the level 0 Master of Apples, is now online from nickname Apple_Master. Next level in 0 days, 00:10:00.
+[09/07/15 13:42:14] (q002) = NOTICE Apple_Master :Logon successful. Next level in 0 days, 00:10:00.
+[09/07/15 13:42:15] (fm4) -> MODE #IdleRPG +v :Apple_Master
+[09/07/15 13:42:15] (fm3) -> PRIVMSG #IdleRPG :Apple_Master, the level 0 Master of Apples, is now online from nickname Apple_Master. Next level in 0 days, 00:10:00.
+[09/07/15 13:42:15] (fm2) -> NOTICE Apple_Master :Logon successful. Next level in 0 days, 00:10:00.
+[09/07/15 13:43:15] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :HOG
+[09/07/15 13:43:15] (q000) = PRIVMSG #IdleRPG :Apple_Master has summoned the Hand of God.
+[09/07/15 13:43:15] (q001) = PRIVMSG #IdleRPG :Verily I say unto thee, the Heavens have burst forth, and the blessed hand of God carried bup 0 days, 00:03:50 toward level 2.
+[09/07/15 13:43:15] (q002) = PRIVMSG #IdleRPG :bup reaches next level in 0 days, 00:06:16.
+[09/07/15 13:43:18] (fm4) -> PRIVMSG #IdleRPG :Apple_Master has summoned the Hand of God.
+[09/07/15 13:43:18] (fm3) -> PRIVMSG #IdleRPG :Verily I say unto thee, the Heavens have burst forth, and the blessed hand of God carried bup 0 days, 00:03:50 toward level 2.
+[09/07/15 13:43:18] (fm2) -> PRIVMSG #IdleRPG :bup reaches next level in 0 days, 00:06:16.
+[09/07/15 13:43:31] <- :Apple_Master!apples@fallemmc.com PRIVMSG #IdleRPG :wow hax
+[09/07/15 13:43:31] (q000) = NOTICE Apple_Master :Penalty of 0 days, 00:00:08 added to your timer for privmsg.
+[09/07/15 13:43:34] (fm4) -> NOTICE Apple_Master :Penalty of 0 days, 00:00:08 added to your timer for privmsg.
+[09/07/15 13:45:35] <- PING :ember.sorcery.net
+[09/07/15 13:45:35] -> PONG :ember.sorcery.net
+[09/07/15 13:47:36] <- PING :ember.sorcery.net
+[09/07/15 13:47:36] -> PONG :ember.sorcery.net
+[09/07/15 13:48:01] <- :Broekie!broekie@shire.sorcery.net JOIN :#IdleRPG
+[09/07/15 13:49:31] (q000) = PRIVMSG #IdleRPG :bup, the Irish Teacher, has attained level 2! Next level in 0 days, 00:13:27.
+[09/07/15 13:49:31] (q001) = NOTICE boop :You found a level 3 tunic! Your current tunic is only level 0, so it seems Luck is with you!
+[09/07/15 13:49:31] (q002) = PRIVMSG #IdleRPG :bup [3/4] has challenged IdleRPG [2/5] in combat and won! 0 days, 00:02:41 is removed from bup's clock.
+[09/07/15 13:49:31] (q003) = PRIVMSG #IdleRPG :bup reaches next level in 0 days, 00:10:46.
+[09/07/15 13:49:34] (fm4) -> PRIVMSG #IdleRPG :bup, the Irish Teacher, has attained level 2! Next level in 0 days, 00:13:27.
+[09/07/15 13:49:34] (fm3) -> NOTICE boop :You found a level 3 tunic! Your current tunic is only level 0, so it seems Luck is with you!
+[09/07/15 13:49:34] (fm2) -> PRIVMSG #IdleRPG :bup [3/4] has challenged IdleRPG [2/5] in combat and won! 0 days, 00:02:41 is removed from bup's clock.
+[09/07/15 13:49:34] (fm1) -> PRIVMSG #IdleRPG :bup reaches next level in 0 days, 00:10:46.
+[09/07/15 13:50:12] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :PAUSE
+[09/07/15 13:50:12] -> PRIVMSG Apple_Master :PAUSE_MODE set to 1.
+[09/07/15 13:51:47] (q000) = PRIVMSG #IdleRPG :WARNING: Cannot write database in PAUSE mode!
+[09/07/15 13:51:50] (fm4) -> PRIVMSG #IdleRPG :WARNING: Cannot write database in PAUSE mode!
+[09/07/15 13:52:20] (q000) = PRIVMSG #IdleRPG :Apple_Master, the Master of Apples, has attained level 1! Next level in 0 days, 00:11:36.
+[09/07/15 13:52:20] (q001) = NOTICE Apple_Master :You found a level 1 pair of gloves! Your current pair of gloves is only level 0, so it seems Luck is with you!
+[09/07/15 13:52:23] (fm4) -> PRIVMSG #IdleRPG :Apple_Master, the Master of Apples, has attained level 1! Next level in 0 days, 00:11:36.
+[09/07/15 13:52:23] (fm3) -> NOTICE Apple_Master :You found a level 1 pair of gloves! Your current pair of gloves is only level 0, so it seems Luck is with you!
+[09/07/15 13:52:42] <- :Apple_Master!apples@fallemmc.com PRIVMSG IdleRPG :die
+[09/07/15 13:52:42] -> QUIT :DIE from Apple_Master!apples@fallemmc.com
+[09/07/15 13:52:42] <- ERROR :Closing link: (idlebot@ember.sorcery.net) [Quit: DIE from Apple_Master!apples@fallemmc.com]
+[09/07/15 13:52:42] Socket closed; disconnected.
