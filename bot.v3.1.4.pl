@@ -2220,7 +2220,7 @@ sub penalize {
             $pen = $opts{limitpen};
         }
         $rps{$username}{pen_nick}+=$pen;
-        $rps{$username}{nick} = substr($newnick,1);
+        $rps{$username}{nick} = $newnick;
         $rps{$username}{userhost} =~ s/^[^!]+/$rps{$username}{nick}/e;
         notice("Penalty of ".duration($pen)." added to your timer for ".
                "nick change.",$rps{$username}{nick});
