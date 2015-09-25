@@ -1643,7 +1643,7 @@ sub find_item { # find item for argument player
         notice("You found a level $level $type. Your current $type is level ".
                itemlevel($rps{$u}{item}{$type}).", so it seems Luck is against you. ".
                "You toss the $type.",$rps{$u}{nick});
-			   drop_item($u, $type, $rps{$u}{item}{$type});  
+			   drop_item($u, $type, $level);  
     }
 }
 
