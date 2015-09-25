@@ -1541,7 +1541,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Mattt's Omniscience Grand Crown! ".
                    "Your enemies fall before you as you anticipate their ".
                    "every move.",$rps{$u}{nick});
-			drop_item($u, helm, $rps{$u}{item}{helm});  
+			drop_item($u, {item}{helm}, $rps{$u}{item}{helm});  
             $rps{$u}{item}{helm} = $ulevel."a";
             return;
         }
