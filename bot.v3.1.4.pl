@@ -1409,7 +1409,7 @@ sub drop_item { # drop item on the map
     my $ulevel = itemlevel($level);
     my $x = $rps{$u}{x};
     my $y = $rps{$u}{y};
-
+	debug("Dropped an item!", $type, $level, $u);
     push(@{$mapitems{"$x:$y"}},{type=>$type,level=>$level,lasttime=>time()}) if ($ulevel > 0);
 }
 
