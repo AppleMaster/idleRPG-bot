@@ -367,14 +367,16 @@ sub parse {
     elsif ($arg[1] eq 'nick') {
         # if someone (nickserv) changes our nick for us, update $opts{botnick}
         if ($usernick eq $opts{botnick}) {
-            $opts{botnick} = substr($arg[2],1);
+            $opts{botnick} = substr($arg[2]);
         }
         # if we see our nick come open, grab it (skipping queue), unless it was
         # us who just lost it
-        elsif ($usernick eq $primnick) { sts("NICK $primnick",1); }
-        else {
+        elsif ($usernick eq $primnick) { 
+			sts("NICK $primnick",1); 
+			} 
+			else {
             penalize($username,"nick",$arg[2]);
-            $onchan{substr($arg[2],1)} = delete($onchan{$usernick});
+            $onchan{substr($arg[2])} = delete($onchan{$usernick});
         }
     }
     elsif ($arg[1] eq 'part') {
