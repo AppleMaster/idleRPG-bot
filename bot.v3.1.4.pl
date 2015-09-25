@@ -1509,7 +1509,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Mattt's Omniscience Grand Crown! ".
                    "Your enemies fall before you as you anticipate their ".
                    "every move.",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{helm}, $rps{$u}{item}{helm});  
+			drop_item($u, "helm", $rps{$u}{item}{helm});  
             $rps{$u}{item}{helm} = $ulevel."a";
             return;
         }
@@ -1522,7 +1522,7 @@ sub find_item { # find item for argument player
                    "Sparkliness! You enemies are blinded by both its glory ".
                    "and their greed as you bring desolation upon them.",
                    $rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{ring}, $rps{$u}{item}{ring});  
+			drop_item($u, "ring", $rps{$u}{item}{ring});  
             $rps{$u}{item}{ring} = $ulevel."h";
             return;
         }
@@ -1534,7 +1534,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Res0's Protectorate Plate Mail! ".
                    "Your enemies cower in fear as their attacks have no ".
                    "effect on you.",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{tunic}, $rps{$u}{item}{tunic});  
+			drop_item($u, "tunic", $rps{$u}{item}{tunic});  
             $rps{$u}{item}{tunic} = $ulevel."b";
             return;
         }
@@ -1546,7 +1546,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Dwyn's Storm Magic Amulet! Your ".
                    "enemies are swept away by an elemental fury before the ".
                    "war has even begun",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{amulet}, $rps{$u}{item}{amulet});  
+			drop_item($u, "amulet", $rps{$u}{item}{amulet});  
             $rps{$u}{item}{amulet} = $ulevel."c";
             return;
         }
@@ -1558,7 +1558,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Jotun's Fury Colossal Sword! Your ".
                    "enemies' hatred is brought to a quick end as you arc your ".
                    "wrist, dealing the crushing blow.",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{weapon}, $rps{$u}{item}{weapon});  
+			drop_item($u, "weapon", $rps{$u}{item}{weapon});  
             $rps{$u}{item}{weapon} = $ulevel."d";
             return;
         }
@@ -1570,7 +1570,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Drdink's Cane of Blind Rage! Your ".
                    "enemies are tossed aside as you blindly swing your arm ".
                    "around hitting stuff.",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{weapon}, $rps{$u}{item}{weapon});  
+			drop_item($u, "weapon", $rps{$u}{item}{weapon});  
             $rps{$u}{item}{weapon} = $ulevel."e";
             return;
         }
@@ -1583,7 +1583,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Mrquick's Magical Boots of ".
                    "Swiftness! Your enemies are left choking on your dust as ".
                    "you run from them very, very quickly.",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{"pair of boots"}, $rps{$u}{item}{"pair of boots"});  
+			drop_item($u, "pair of boots", $rps{$u}{item}{"pair of boots"});  
             $rps{$u}{item}{"pair of boots"} = $ulevel."f";
             return;
         }
@@ -1595,7 +1595,7 @@ sub find_item { # find item for argument player
                    "found the level $ulevel Jeff's Cluehammer of Doom! Your ".
                    "enemies are left with a sudden and intense clarity of ".
                    "mind... even as you relieve them of it.",$rps{$u}{nick});
-			drop_item($u, $rps{$u}{item}{weapon}, $rps{$u}{item}{weapon});  
+			drop_item($u, "weapon", $rps{$u}{item}{weapon});  
             $rps{$u}{item}{weapon} = $ulevel."g";
             return;
         }
