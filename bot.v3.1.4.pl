@@ -1409,7 +1409,7 @@ sub drop_item { # drop item on the map
     my $ulevel = itemlevel($level);
     my $x = $rps{$u}{x};
     my $y = $rps{$u}{y};
-	debug("Dropped an item!", $type, $level, $u);
+	debug("Dropped an item!");
     push(@{$mapitems{"$x:$y"}},{type=>$type,level=>$level,lasttime=>time()}) if ($ulevel > 0);
 }
 
@@ -1420,6 +1420,7 @@ sub downgrade_item { # returns the decreased item level
     my %minlevel = (''=>0,a=>50,h=>50,b=>75,d=>150,e=>175,f=>250,g=>300);
     $tag = '' if ($ulevel == $minlevel{$tag});
     $ulevel-- if ($ulevel > 0);
+	debug("Downgraded items");
     return "$ulevel$tag";
 }
 
