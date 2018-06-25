@@ -1373,18 +1373,6 @@ sub itemtag {
     return $level;
 }
 
-sub itemlevel {
-    my $level = shift;
-    $level =~ s/\D$//;
-    return $level;
-}
-
-sub itemtag {
-    my $level = shift;
-    $level =~ s/^\d+//;
-    return $level;
-}
-
 sub process_items { # decrease items lying around
     my $curtime = time();
 
