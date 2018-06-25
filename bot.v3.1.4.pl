@@ -1373,18 +1373,6 @@ sub itemtag {
     return $level;
 }
 
-sub itemlevel {
-    my $level = shift;
-    $level =~ s/\D$//;
-    return $level;
-}
-
-sub itemtag {
-    my $level = shift;
-    $level =~ s/^\d+//;
-    return $level;
-}
-
 sub process_items { # decrease items lying around
     my $curtime = time();
 
@@ -1987,7 +1975,7 @@ sub calamity { # suffer a little one
         }
         elsif ($type eq "tunic") {
             chanmsg(clog("$player used a shrinking potion which was mislabled as water proofer. ". 
-            		 "As a result, $players\'s tunic has shrunk and it loses 10% of its ".
+            		 "As a result, $player\'s tunic has shrunk and it loses 10% of its ".
                          "effectiveness."));
         }
         elsif ($type eq "shield") {
