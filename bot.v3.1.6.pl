@@ -2186,7 +2186,7 @@ sub penalize {
     my $pen = 0;
     questpencheck($username);
     if ($type eq "quit") {
-        $pen = int(20 * penttl($rps{$username}{level}) / $opts{rpbase});
+        $pen = int(0.5 * penttl($rps{$username}{level}) / $opts{rpbase});
         if ($opts{limitpen} && $pen > $opts{limitpen}) {
             $pen = $opts{limitpen};
         }
